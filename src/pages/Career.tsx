@@ -38,7 +38,7 @@ const Career = () => {
       title: "$100k Merit Scholarship",
       description:
         "Honored with a $100k Maverick Academic Scholarship at UTA in recognition of my achievements.",
-      longDescription: `Honored with the Maverick Academic Scholarship at UTA in recognition of a perfect 4.0 GPA and graduating as valedictorian with a class rank of 1/90. I received scholarship offers from seven universities, with this being the highest award. Throughout high school, I served as Head Boy, led the kabaddi team as captain, and actively worked to foster a supportive, spirited school environment. My leadership roles allowed me to inspire teamwork, encourage resilience, and contribute meaningfully to our school’s community and culture.`,
+      longDescription: `Honored with the Maverick Academic Scholarship at University of Texas at Arlington in recognition of a perfect 4.0 GPA and graduating as valedictorian with a class rank of 1/90. I received scholarship offers from seven universities, with this being the highest award. Throughout high school, I served as Head Boy, led the kabaddi team as captain, and actively worked to foster a supportive, spirited school environment. My leadership roles allowed me to inspire teamwork, encourage resilience, and contribute meaningfully to our school’s community and culture.`,
       type: "education",
       icon: "🏆",
     },
@@ -54,69 +54,41 @@ const Career = () => {
       icon: "🎓",
     },
     {
-      date: "December 2020",
-      title: "First Hackathon Victory",
+      date: "August 2023",
+      title: "Started BS in CS at UTA",
       description:
-        "Won first place in University Hackathon with an AI-powered health monitoring app.",
-      longDescription: `Led a team of four to develop an innovative health monitoring system using artificial intelligence.
-        Implemented real-time vital sign monitoring with predictive analytics for early disease detection.
-        Utilized TensorFlow for machine learning models and React Native for the mobile application.
-        Presented to a panel of industry experts and won first place among 50+ competing teams.
-        Project was later featured in the university's innovation showcase.`,
-      type: "achievement",
-      icon: "🏆",
+        "Began my Bachelor’s in Computer Science at UT Arlington, adapting to life in Arlington, TX.",
+      longDescription: `Embarked on my academic journey in the United States, arriving in Arlington, Texas on August 5th, 2023. Quickly adapted to the new environment despite the challenging Texas summer heat. Actively participated in the university orientation on August 8th, forming valuable connections with fellow students. Experienced the vibrant campus life with over 30,000 students during the first day of classes on August 21st. Made a conscious decision to maximize my university experience by planning to engage in various student organizations and campus activities. This transition marked my first step into international education and American university culture.`,
+      type: "education",
+      icon: "✈️",
     },
     {
-      date: "December 2020",
-      title: "First Hackathon Victory",
+      date: "January 2024",
+      title: "Orientation Leader",
       description:
-        "Won first place in University Hackathon with an AI-powered health monitoring app.",
-      longDescription: `Led a team of four to develop an innovative health monitoring system using artificial intelligence.
-        Implemented real-time vital sign monitoring with predictive analytics for early disease detection.
-        Utilized TensorFlow for machine learning models and React Native for the mobile application.
-        Presented to a panel of industry experts and won first place among 50+ competing teams.
-        Project was later featured in the university's innovation showcase.`,
-      type: "achievement",
-      icon: "🏆",
+        "Chosen to serve as an Orientation Leader at UTA, guiding incoming students in their university journey.",
+      longDescription: `Secured a prestigious role as an Orientation Leader at the University of Texas at Arlington, progressing from attending orientations myself to leading them. Underwent an intensive training program from January to May 2024 to develop strong interpersonal and communication skills. Promoted university resources and opportunities, provided guidance and support to new students and their families, and organized group activities to foster engagement. This role highlights my leadership abilities and deep knowledge of university culture, allowing me to positively impact new students’ transitions to university life during the Summer 2024 orientation sessions.
+`,
+      type: "work",
+      icon: "✨",
     },
     {
-      date: "December 2020",
-      title: "First Hackathon Victory",
-      description:
-        "Won first place in University Hackathon with an AI-powered health monitoring app.",
-      longDescription: `Led a team of four to develop an innovative health monitoring system using artificial intelligence.
-        Implemented real-time vital sign monitoring with predictive analytics for early disease detection.
-        Utilized TensorFlow for machine learning models and React Native for the mobile application.
-        Presented to a panel of industry experts and won first place among 50+ competing teams.
-        Project was later featured in the university's innovation showcase.`,
-      type: "achievement",
-      icon: "🏆",
+      "date": "January 2024",
+      "title": "Undergraduate Research Mav",
+      "description": "Started my first on-campus job as a Research Mav where I optimized research workflows at UTA.",
+      "longDescription": "Contributed to UTA's research department by managing 24/7 live chat systems, gaining hands-on experience with server-side and user-side interfaces. Integrated multiple databases and tools to streamline research workflows, significantly improving data retrieval efficiency. Implemented technical solutions that reduced data processing time by 40% and enhanced scheduling efficiency by 30%. Coordinated patron appointments using various platforms, while optimizing communication systems and research support processes. Demonstrated strong technical aptitude in improving customer interaction platforms and database management systems.",
+      "type": "project",
+      "icon": "🔬"
     },
     {
-      date: "December 2020",
-      title: "First Hackathon Victory",
+      date: "August 2024",
+      title: "OIT Lab Specialist",
       description:
-        "Won first place in University Hackathon with an AI-powered health monitoring app.",
-      longDescription: `Led a team of four to develop an innovative health monitoring system using artificial intelligence.
-        Implemented real-time vital sign monitoring with predictive analytics for early disease detection.
-        Utilized TensorFlow for machine learning models and React Native for the mobile application.
-        Presented to a panel of industry experts and won first place among 50+ competing teams.
-        Project was later featured in the university's innovation showcase.`,
-      type: "achievement",
-      icon: "🏆",
-    },
-    {
-      date: "December 2020",
-      title: "First Hackathon Victory",
-      description:
-        "Won first place in University Hackathon with an AI-powered health monitoring app.",
-      longDescription: `Led a team of four to develop an innovative health monitoring system using artificial intelligence.
-        Implemented real-time vital sign monitoring with predictive analytics for early disease detection.
-        Utilized TensorFlow for machine learning models and React Native for the mobile application.
-        Presented to a panel of industry experts and won first place among 50+ competing teams.
-        Project was later featured in the university's innovation showcase.`,
-      type: "achievement",
-      icon: "🏆",
+        "Managed campus-wide computer systems while collaborating with software development teams.",
+      longDescription: `Appointed as an Information Technology Lab Specialist at UTA, supporting the daily operations of university computer laboratories. Provided technical assistance to students and faculty, troubleshooting hardware and software issues, and ensuring optimal functionality of lab equipment. Collaborated with IT staff to manage software installations, network connectivity, and system updates, ensuring a seamless user experience across multiple lab facilities. Gained hands-on experience in IT support, system maintenance, and technical problem-solving within an academic environment, developing skills in diagnostic assessment and infrastructure support.
+                        `,
+      type: "education",
+      icon: "💻",
     },
     // ... rest of the timeline items with similar detailed longDescription
   ];
