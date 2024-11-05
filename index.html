@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vikash Mall</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Apply zoom for most browsers
+        document.body.style.zoom = "0.75";
+
+        // Safari fallback using transform scale
+        if (navigator.userAgent.includes("Safari") && !navigator.userAgent.includes("Chrome")) {
+          document.body.style.zoom = "unset";
+          document.body.style.transform = "scale(0.75)";
+          document.body.style.transformOrigin = "top left";
+          document.body.style.width = "133.33%";
+          document.body.style.overflowX = "hidden";
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
