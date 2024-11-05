@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Vikash Estate",
       description:
         "Vikash Estate is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. This site is dedicated to providing exceptional service and making the buying and selling process as smooth as possible. Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.",
-      image: "./images/VikashEstate.png",
+      image: "./personal_website/images/VikashEstate.png",
       technologies: [
         "React",
         "Node.js",
@@ -47,7 +47,7 @@ const Projects = () => {
       description:
         "Rapid Relief is a mobile app designed to provide emergency services and real-time disaster tracking for users affected by natural disasters, such as hurricanes. The app allows users to locate nearby resources and activate an SOS feature that connects them with medical services, acting as a potential replacement for 911 in disaster scenarios. Integrated NASA and GDACS APIs provide live updates on natural disasters globally, helping users stay informed in real-time.",
       image:
-        "./images/RapidRelief.png",
+        "./personal_website/images/RapidRelief.png",
       technologies: ["Typescript", "Python", "React Native", "Node.js", "Express.js", "MongoDB", "Streamlit", "NASA API", "GDACS API", "Expo Go"],
       githubUrl: "https://github.com/vikashftw/RapidRelief",
       featured: true,
@@ -58,7 +58,7 @@ const Projects = () => {
       description:
         "A revolutionary health monitoring system leveraging advanced machine learning algorithms to predict potential health risks with unprecedented accuracy. The system processes real-time patient data through a sophisticated neural network architecture, providing early warning signals for various health conditions. Built with Python and TensorFlow for the backend processing, with a responsive React frontend for real-time data visualization and monitoring.",
       image:
-        "./images/BalajiEmporium.png",
+        "./personal_website/images/BalajiEmporium.png",
       technologies: ["Python", "TensorFlow", "React", "Node.js"],
       liveUrl: "https://health-monitor.demo",
       githubUrl: "https://github.com/vikashftw/BalajiEmporium",
