@@ -42,7 +42,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 1,
+      id: 2,
       title: "Rapid Relief",
       description:
         "Rapid Relief is a mobile app designed to provide emergency services and real-time disaster tracking for users affected by natural disasters, such as hurricanes. The app allows users to locate nearby resources and activate an SOS feature that connects them with medical services, acting as a potential replacement for 911 in disaster scenarios. Integrated NASA and GDACS APIs provide live updates on natural disasters globally, helping users stay informed in real-time.",
@@ -53,7 +53,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 1,
+      id: 3,
       title: "Balaji Emporium",
       description:
         "A revolutionary health monitoring system leveraging advanced machine learning algorithms to predict potential health risks with unprecedented accuracy. The system processes real-time patient data through a sophisticated neural network architecture, providing early warning signals for various health conditions. Built with Python and TensorFlow for the backend processing, with a responsive React frontend for real-time data visualization and monitoring.",
@@ -65,7 +65,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 1,
+      id: 4,
       title: "AI-Powered Health Monitoring",
       description:
         "A revolutionary health monitoring system leveraging advanced machine learning algorithms to predict potential health risks with unprecedented accuracy. The system processes real-time patient data through a sophisticated neural network architecture, providing early warning signals for various health conditions. Built with Python and TensorFlow for the backend processing, with a responsive React frontend for real-time data visualization and monitoring.",
@@ -77,7 +77,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 1,
+      id: 5,
       title: "AI-Powered Health Monitoring",
       description:
         "A revolutionary health monitoring system leveraging advanced machine learning algorithms to predict potential health risks with unprecedented accuracy. The system processes real-time patient data through a sophisticated neural network architecture, providing early warning signals for various health conditions. Built with Python and TensorFlow for the backend processing, with a responsive React frontend for real-time data visualization and monitoring.",
@@ -208,7 +208,7 @@ const Projects = () => {
 
               {/* Project Details */}
               <div className="space-y-8">
-              <h2 className="text-4xl font-bold text-transparent relative
+              <h2 className="text-4xl font-bold bg-clip-text text-transparent relative
               bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500
               dark:from-blue-400 dark:via-cyan-400 dark:to-teal-400
               hover:bg-gradient-to-l transition-all duration-500
