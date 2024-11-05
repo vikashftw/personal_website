@@ -215,16 +215,22 @@ const Projects = () => {
               after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 
               after:bg-gradient-to-r after:from-blue-600/0 after:via-cyan-500/50 after:to-teal-500/0 
               after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500"
->
-    <motion.span
-        key={activeIndex}
-        initial={{ y: 20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.3 }}
-    >
-        {projects[activeIndex].title}
-    </motion.span>
-</h2>
+              >
+                  <motion.span
+                      key={activeIndex}
+                      initial={{ y: 20, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.3 }}
+                      style={{
+                          background: 'inherit',
+                          WebkitBackgroundClip: 'text',
+                          color: 'transparent',
+                        }}
+                  >
+                      {projects[activeIndex].title}
+                  </motion.span>
+              </h2>
+
 
                 <motion.p
                   className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed"
