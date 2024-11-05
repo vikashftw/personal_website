@@ -208,20 +208,23 @@ const Projects = () => {
 
               {/* Project Details */}
               <div className="space-y-8">
-                <motion.h2
-                  className="text-4xl font-bold bg-clip-text text-transparent relative
-                            bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500
-                            dark:from-blue-400 dark:via-cyan-400 dark:to-teal-400
-                            hover:bg-gradient-to-l transition-all duration-500
-                            after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 
-                            after:bg-gradient-to-r after:from-blue-600/0 after:via-cyan-500/50 after:to-teal-500/0 
-                            after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.2 }}
-                >
-                  {projects[activeIndex].title}
-                </motion.h2>
+              <h2 className="text-4xl font-bold bg-clip-text text-transparent relative
+              bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500
+              dark:from-blue-400 dark:via-cyan-400 dark:to-teal-400
+              hover:bg-gradient-to-l transition-all duration-500
+              after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 
+              after:bg-gradient-to-r after:from-blue-600/0 after:via-cyan-500/50 after:to-teal-500/0 
+              after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500"
+>
+    <motion.span
+        key={activeIndex}
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.3 }}
+    >
+        {projects[activeIndex].title}
+    </motion.span>
+</h2>
 
                 <motion.p
                   className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed"
