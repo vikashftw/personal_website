@@ -208,7 +208,7 @@ const Projects = () => {
 
               {/* Project Details */}
               <div className="space-y-8">
-              <h2 className="text-4xl font-bold bg-clip-text text-transparent relative
+              <h2 className="text-4xl font-bold text-transparent relative
               bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500
               dark:from-blue-400 dark:via-cyan-400 dark:to-teal-400
               hover:bg-gradient-to-l transition-all duration-500
