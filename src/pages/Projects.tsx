@@ -46,9 +46,19 @@ const Projects = () => {
       title: "Rapid Relief",
       description:
         "Rapid Relief is a mobile app designed to provide emergency services and real-time disaster tracking for users affected by natural disasters, such as hurricanes. The app allows users to locate nearby resources and activate an SOS feature that connects them with medical services, acting as a potential replacement for 911 in disaster scenarios. Integrated NASA and GDACS APIs provide live updates on natural disasters globally, helping users stay informed in real-time.",
-      image:
-        "/images/RapidRelief.png",
-      technologies: ["Typescript", "Python", "React Native", "Node.js", "Express.js", "MongoDB", "Streamlit", "NASA API", "GDACS API", "Expo Go"],
+      image: "/images/RapidRelief.png",
+      technologies: [
+        "Typescript",
+        "Python",
+        "React Native",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Streamlit",
+        "NASA API",
+        "GDACS API",
+        "Expo Go",
+      ],
       githubUrl: "https://github.com/vikashftw/RapidRelief",
       featured: true,
     },
@@ -56,37 +66,43 @@ const Projects = () => {
       id: 3,
       title: "Balaji Emporium",
       description:
-        "A revolutionary health monitoring system leveraging advanced machine learning algorithms to predict potential health risks with unprecedented accuracy. The system processes real-time patient data through a sophisticated neural network architecture, providing early warning signals for various health conditions. Built with Python and TensorFlow for the backend processing, with a responsive React frontend for real-time data visualization and monitoring.",
-      image:
-        "/images/BalajiEmporium.png",
-      technologies: ["Python", "TensorFlow", "React", "Node.js"],
-      liveUrl: "https://health-monitor.demo",
+        "Balaji Emporium is a comprehensive e-commerce platform that brings a traditional retail store into the digital age. Customers can browse through an extensive catalog of products, add items to their cart, and complete secure purchases online. The platform features a streamlined checkout process, real-time inventory tracking, and personalized user accounts for order history. Store administrators can manage products, track orders, handle inventory, and process deliveries through an intuitive dashboard. The site includes smart search functionality, product categorization, and dynamic pricing with support for seasonal discounts and promotional offers.",
+      image: "/images/BalajiEmporium.png",
+      technologies: [
+        "Javascript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Docker",
+        "Stripe",
+        "OAuth 2.0",
+        "JWT",
+        "Tailwind CSS",
+      ],
       githubUrl: "https://github.com/vikashftw/BalajiEmporium",
       featured: true,
     },
     {
       id: 4,
-      title: "AI-Powered Health Monitoring",
-      description:
-        "A revolutionary health monitoring system leveraging advanced machine learning algorithms to predict potential health risks with unprecedented accuracy. The system processes real-time patient data through a sophisticated neural network architecture, providing early warning signals for various health conditions. Built with Python and TensorFlow for the backend processing, with a responsive React frontend for real-time data visualization and monitoring.",
-      image:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80",
-      technologies: ["Python", "TensorFlow", "React", "Node.js"],
-      liveUrl: "https://health-monitor.demo",
-      githubUrl: "https://github.com/yourusername/health-monitor",
-      featured: true,
-    },
-    {
-      id: 5,
-      title: "AI-Powered Health Monitoring",
-      description:
-        "A revolutionary health monitoring system leveraging advanced machine learning algorithms to predict potential health risks with unprecedented accuracy. The system processes real-time patient data through a sophisticated neural network architecture, providing early warning signals for various health conditions. Built with Python and TensorFlow for the backend processing, with a responsive React frontend for real-time data visualization and monitoring.",
-      image:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80",
-      technologies: ["Python", "TensorFlow", "React", "Node.js"],
-      liveUrl: "https://health-monitor.demo",
-      githubUrl: "https://github.com/yourusername/health-monitor",
-      featured: true,
+      title: "AutoGuardian",
+      description: 
+        "AutoGuardian is a comprehensive vehicle care companion app that helps car owners maintain their vehicles with ease. The app features smart maintenance scheduling, detailed service history tracking, and an extensive library of car care tutorials. Users can search for nearby certified mechanics and receive personalized vehicle care recommendations through an AI-powered virtual assistant. The app includes customizable service reminders, digital documentation storage, and a user-friendly interface for tracking multiple vehicles.",
+      image: "/images/AutoGuardian.png",
+      technologies: [
+        "React Native",
+        "Supabase",
+        "PostgreSQL",
+        "OpenAI API",
+        "Expo",
+        "Git",
+        "Babel",
+        "JavaScript",
+        "REST API",
+        "OAuth 2.0"
+      ],
+      githubUrl: "https://github.com/vikashftw/AutoGuardian",
+      featured: true
     },
     // ... rest of the projects
   ];
@@ -208,29 +224,29 @@ const Projects = () => {
 
               {/* Project Details */}
               <div className="space-y-8">
-              <h2 className="text-4xl font-bold bg-clip-text text-transparent relative
+                <h2
+                  className="text-4xl font-bold bg-clip-text text-transparent relative
               bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500
               dark:from-blue-400 dark:via-cyan-400 dark:to-teal-400
               hover:bg-gradient-to-l transition-all duration-500
               after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 
               after:bg-gradient-to-r after:from-blue-600/0 after:via-cyan-500/50 after:to-teal-500/0 
               after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500"
-              >
+                >
                   <motion.span
-                      key={activeIndex}
-                      initial={{ y: 20, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
-                      transition={{ duration: 0.3 }}
-                      style={{
-                          background: 'inherit',
-                          WebkitBackgroundClip: 'text',
-                          color: 'transparent',
-                        }}
+                    key={activeIndex}
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.3 }}
+                    style={{
+                      background: "inherit",
+                      WebkitBackgroundClip: "text",
+                      color: "transparent",
+                    }}
                   >
-                      {projects[activeIndex].title}
+                    {projects[activeIndex].title}
                   </motion.span>
-              </h2>
-
+                </h2>
 
                 <motion.p
                   className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed"

@@ -11,10 +11,10 @@ const About = () => {
   const skills = [
     { name: "MERN Stack", level: 97 },
     { name: "Javascript/Java/Python/C/C++", level: 97 },
-    { name: "Flask/Django/MySQL", level: 95 },
-    { name: "Data Structures & Algorithms", level: 93 },
-    { name: "AI & Machine Learning", level: 90 },
-    { name: "Git Version Control", level: 90 },
+    { name: "Flask/Django/MySQL", level: 97 },
+    { name: "Data Structures & Algorithms", level: 95 },
+    { name: "AI & Machine Learning", level: 93 },
+    { name: "Git Version Control", level: 93 },
     { name: "AWS Deployment", level: 90 }
   ];
 
