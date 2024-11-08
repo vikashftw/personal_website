@@ -14,7 +14,7 @@ const Career = () => {
       title: "Lead Web Developer",
       description:
         "Served as Lead Web Developer at my high school, managing and enhancing the school's online presence.",
-      longDescription: `Developed strong expertise in Python, Flask, MySQL, and Java, with a solid foundation taught by my high school faculty. 
+      longDescription: `Developed strong expertise in Python, Django, MySQL, and JavaScript, with a solid foundation taught by my high school faculty. 
         As Lead Web Developer, I utilized these skills to elevate the school’s online presence, ensuring the website remained visually appealing, error-free, and fully functional. 
         Managed a dynamic, regularly updated database that reflected real-time information, such as school events, announcements, and other essential data, providing a seamless, engaging, and professional digital experience that aligned with the school’s values and commitment to quality.
         `,
@@ -82,11 +82,10 @@ const Career = () => {
     },
     {
       date: "August 2024",
-      title: "OIT Lab Specialist",
+      title: "IT Administrative Support",
       description:
-        "Managed campus-wide computer systems while collaborating with software development teams.",
-      longDescription: `Appointed as an Information Technology Lab Specialist at UTA, supporting the daily operations of university computer laboratories. Provided technical assistance to students and faculty, troubleshooting hardware and software issues, and ensuring optimal functionality of lab equipment. Collaborated with IT staff to manage software installations, network connectivity, and system updates, ensuring a seamless user experience across multiple lab facilities. Gained hands-on experience in IT support, system maintenance, and technical problem-solving within an academic environment, developing skills in diagnostic assessment and infrastructure support.
-                        `,
+        "Improved lab software using HTML, PHP, and JavaScript, boosting efficiency and user experience.",
+      longDescription: `In my role as IT Administrative Support at UTA, I utilized HTML, PHP, and JavaScript to maintain and update lab software applications. I developed scripts to automate routine maintenance tasks, significantly enhancing system efficiency and reducing downtime. Collaborating with the IT team to deploy and configure software systems, I helped improve user experience by 50%. Providing technical assistance to students and faculty allowed me to ensure optimal functionality of lab applications. This experience strengthened my coding skills in web development, automation, and system integration within an academic environment, contributing to seamless operations across multiple labs.`,
       type: "education",
       icon: "💻",
     },
