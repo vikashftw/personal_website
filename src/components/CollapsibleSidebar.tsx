@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const CollapsibleSidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const resumeUrl = "https://drive.google.com/file/d/1PTrAtG42bv-VLMA_w2QcVvZQDZSlCNYW/view";
+  const resumeUrl = "https://drive.google.com/file/d/1jCtzDq597zWYqliD9V_QWZux9BT_nky2/view";
 
   const sidebarVariants = {
     open: { x: 0, transition: { type: "spring", stiffness: 300, damping: 30 } },
