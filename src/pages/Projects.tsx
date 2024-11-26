@@ -43,6 +43,22 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "ToDesktopX",
+      description:
+        "This project is an advanced replica of the popular Web2Desktop app, ToDesktop, designed to highlight my expertise in creating fully responsive applications across all devices using Tailwind CSS. I developed custom JavaScript functions, including animations that make company logos slide based on scroll direction, to enhance interactivity and user experience. By working exclusively with plain HTML, CSS, and JavaScript, without relying on additional frameworks, I deepened my understanding of core web technologies. This project not only challenged my technical abilities but also significantly advanced my skills in responsive design, CSS, and JavaScript.",
+      image: "/images/ToDesktop.png",
+      technologies: [
+        "Javascript",
+        "Tailwind CSS",
+        "HTML",
+        "Font Awesome",
+      ],
+      liveUrl: "https://todesktopp.vercel.app/",
+      githubUrl: "https://github.com/vikashftw/ToDesktop",
+      featured: true,
+    },
+    {
+      id: 3,
       title: "Rapid Relief",
       description:
         "Rapid Relief is a mobile app designed to provide emergency services and real-time disaster tracking for users affected by natural disasters, such as hurricanes. The app allows users to locate nearby resources and activate an SOS feature that connects them with medical services, acting as a potential replacement for 911 in disaster scenarios. Integrated NASA and GDACS APIs provide live updates on natural disasters globally, helping users stay informed in real-time.",
@@ -63,7 +79,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 3,
+      id: 4,
       title: "Balaji Emporium",
       description:
         "Balaji Emporium is a comprehensive e-commerce platform that brings a traditional retail store into the digital age. Customers can browse through an extensive catalog of products, add items to their cart, and complete secure purchases online. The platform features a streamlined checkout process, real-time inventory tracking, and personalized user accounts for order history. Store administrators can manage products, track orders, handle inventory, and process deliveries through an intuitive dashboard. The site includes smart search functionality, product categorization, and dynamic pricing with support for seasonal discounts and promotional offers.",
@@ -84,7 +100,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 4,
+      id: 5,
       title: "AutoGuardian",
       description: 
         "AutoGuardian is a comprehensive vehicle care companion app that helps car owners maintain their vehicles with ease. The app features smart maintenance scheduling, detailed service history tracking, and an extensive library of car care tutorials. Users can search for nearby certified mechanics and receive personalized vehicle care recommendations through an AI-powered virtual assistant. The app includes customizable service reminders, digital documentation storage, and a user-friendly interface for tracking multiple vehicles.",
