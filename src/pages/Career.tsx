@@ -47,7 +47,7 @@ const Career = () => {
       title: "Graduated High School",
       description:
         "Graduated High School with a perfect 4.0 GPA, ranking 1st in a class of 90 students.",
-      longDescription: `Graduated from B.D. Memorial English High School in Jaigaon, India, excelling academically with top scores in Physics, Chemistry, Maths, Computer Science, and English. 
+      longDescription: `Graduated from B.D. Memorial English High School, excelling academically with top scores in Physics, Chemistry, Maths, Computer Science, and English. 
         Served as captain of the school’s kabaddi team, leading us to numerous victories in zonal and inter-zonal competitions and fostering a spirit of teamwork and resilience. 
         Additionally, took on the role of lead web developer, enhancing the school’s digital presence. Achieved a perfect 4.0 GPA and graduated 1st in a class of 90 students, recognized for both academic and extracurricular contributions.`,
       type: "achievement",
@@ -58,7 +58,7 @@ const Career = () => {
       title: "Started BS in CS at UTA",
       description:
         "Began my Bachelor’s in Computer Science at UT Arlington, adapting to life in Arlington, TX.",
-      longDescription: `Embarked on my academic journey in the United States, arriving in Arlington, Texas on August 5th, 2023. Quickly adapted to the new environment despite the challenging Texas summer heat. Actively participated in the university orientation on August 8th, forming valuable connections with fellow students. Experienced the vibrant campus life with over 30,000 students during the first day of classes on August 21st. Made a conscious decision to maximize my university experience by planning to engage in various student organizations and campus activities. This transition marked my first step into international education and American university culture.`,
+      longDescription: `Embarked on my academic journey in Arlington, Texas on August 5th, 2023. Quickly adapted to the new environment despite the challenging Texas summer heat. Actively participated in the university orientation on August 8th, forming valuable connections with fellow students. Experienced the vibrant campus life with over 30,000 students during the first day of classes on August 21st. Made a conscious decision to maximize my university experience by planning to engage in various student organizations and campus activities. This transition marked my first step into higher education and public university culture.`,
       type: "education",
       icon: "✈️",
     },
@@ -84,8 +84,8 @@ const Career = () => {
       date: "August 2024",
       title: "IT Administrative Support",
       description:
-        "Improved lab software using HTML, PHP, and JavaScript, boosting efficiency and user experience.",
-      longDescription: `In my role as IT Administrative Support at UTA, I utilized HTML, PHP, and JavaScript to maintain and update lab software applications. I developed scripts to automate routine maintenance tasks, significantly enhancing system efficiency and reducing downtime. Collaborating with the IT team to deploy and configure software systems, I helped improve user experience by 50%. Providing technical assistance to students and faculty allowed me to ensure optimal functionality of lab applications. This experience strengthened my coding skills in web development, automation, and system integration within an academic environment, contributing to seamless operations across multiple labs.`,
+        "Improved lab software using Python and JavaScript, boosting efficiency and user experience.",
+      longDescription: `In my role as IT Administrative Support at UTA, I utilized Python and JavaScript to maintain and update lab software applications. I developed scripts to automate routine maintenance tasks, significantly enhancing system efficiency and reducing downtime. Collaborating with the IT team to deploy and configure software systems, I helped improve user experience by 50%. Providing technical assistance to students and faculty allowed me to ensure optimal functionality of lab applications. This experience strengthened my coding skills in web development, automation, and system integration within an academic environment, contributing to seamless operations across multiple labs.`,
       type: "education",
       icon: "💻",
     },
