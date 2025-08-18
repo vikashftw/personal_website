@@ -22,12 +22,12 @@ const SocialLinks = () => {
       label: 'GitHub',
       color: 'hover:text-black dark:hover:text-gray-50'
     },
-    { 
-      Icon: Instagram, 
-      href: 'https://instagram.com/vikashftw', 
-      label: 'Instagram',
-      color: 'hover:text-pink-600 dark:hover:text-pink-400'
-    },
+    // { 
+    //   Icon: Instagram, 
+    //   href: 'https://instagram.com/vikashftw', 
+    //   label: 'Instagram',
+    //   color: 'hover:text-pink-600 dark:hover:text-pink-400'
+    // },
     { 
       Icon: XIcon, 
       href: 'https://x.com/VikashMall18194', 
