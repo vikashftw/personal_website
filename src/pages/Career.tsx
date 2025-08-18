@@ -10,18 +10,6 @@ const Career = () => {
 
   const timeline = [
     {
-      date: "May 2022",
-      title: "Lead Web Developer",
-      description:
-        "Served as Lead Web Developer at my high school, managing and enhancing the school's online presence.",
-      longDescription: `Developed strong expertise in Python, Django, MySQL, and JavaScript, with a solid foundation taught by my high school faculty. 
-        As Lead Web Developer, I utilized these skills to elevate the school’s online presence, ensuring the website remained visually appealing, error-free, and fully functional. 
-        Managed a dynamic, regularly updated database that reflected real-time information, such as school events, announcements, and other essential data, providing a seamless, engaging, and professional digital experience that aligned with the school’s values and commitment to quality.
-        `,
-      type: "work",
-      icon: "👨🏻‍💻",
-    },
-    {
       date: "July 2022",
       title: "Head Boy",
       description:
@@ -54,6 +42,18 @@ const Career = () => {
       icon: "🎓",
     },
     {
+      date: "June 2023",
+      title: "Software Developer Intern",
+      description:
+        "Worked as Software Developer Intern at my high school, managing the school's online presence.",
+      longDescription: `Developed strong expertise in Python, Django, MySQL, and JavaScript, with a solid foundation taught by my high school faculty. 
+        As Software Developer Intern, I utilized these skills to elevate the school’s online presence, ensuring the website remained visually appealing, error-free, and fully functional. 
+        Managed a dynamic, regularly updated database that reflected real-time information, such as school events, announcements, and other essential data, providing a seamless, engaging, and professional digital experience that aligned with the school’s values and commitment to quality.
+        `,
+      type: "work",
+      icon: "👨🏻‍💻",
+    },
+    {
       date: "August 2023",
       title: "Started BS in CS at UTA",
       description:
@@ -69,25 +69,32 @@ const Career = () => {
         "Chosen to serve as an Orientation Leader at UTA, guiding incoming students in their university journey.",
       longDescription: `Secured a prestigious role as an Orientation Leader at the University of Texas at Arlington, progressing from attending orientations myself to leading them. Underwent an intensive training program from January to May 2024 to develop strong interpersonal and communication skills. Promoted university resources and opportunities, provided guidance and support to new students and their families, and organized group activities to foster engagement. This role highlights my leadership abilities and deep knowledge of university culture, allowing me to positively impact new students’ transitions to university life during the Summer 2024 orientation sessions.
 `,
-      type: "work",
+      type: "achievement",
       icon: "✨",
     },
     {
       "date": "January 2024",
-      "title": "Undergraduate Research Mav",
-      "description": "Started my first on-campus job as a Research Mav where I optimized research workflows at UTA.",
-      "longDescription": "Contributed to UTA's research department by managing 24/7 live chat systems, gaining hands-on experience with server-side and user-side interfaces. Integrated multiple databases and tools to streamline research workflows, significantly improving data retrieval efficiency. Implemented technical solutions that reduced data processing time by 40% and enhanced scheduling efficiency by 30%. Coordinated patron appointments using various platforms, while optimizing communication systems and research support processes. Demonstrated strong technical aptitude in improving customer interaction platforms and database management systems.",
+      "title": "Research Assistant",
+      "description": "Contributed to a research project on real-time financial market predictive modeling at UTA.",
+      "longDescription": "I contributed to a research project on real-time predictive modeling for financial markets using Python. My work included engineering a robust data pipeline with Pandas to effectively process and clean more than 1M data points, which ultimately boosted the model's overall accuracy. In addition, I fine-tuned a TensorFlow neural network, a key effort that improved predictive precision by 15% over the baseline model. I also developed a critical validation framework to benchmark model performance and prevent overfitting on new data, ensuring the solutions were scalable and reliable. Collaborated with faculty to analyze and present research findings in a professional setting.",
       "type": "project",
       "icon": "🔬"
     },
     {
-      date: "August 2024",
-      title: "IT Administrative Support",
-      description:
-        "Improved lab software using Python and JavaScript, boosting efficiency and user experience.",
-      longDescription: `In my role as IT Administrative Support at UTA, I utilized Python and JavaScript to maintain and update lab software applications. I developed scripts to automate routine maintenance tasks, significantly enhancing system efficiency and reducing downtime. Collaborating with the IT team to deploy and configure software systems, I helped improve user experience by 50%. Providing technical assistance to students and faculty allowed me to ensure optimal functionality of lab applications. This experience strengthened my coding skills in web development, automation, and system integration within an academic environment, contributing to seamless operations across multiple labs.`,
-      type: "education",
-      icon: "💻",
+      date: "May 2025",
+      title: "Software Developer Intern",
+      "description": "Engineered data-intensive internal web pages for energy traders using React and JS at Hunt Consolidated.",
+      "longDescription": "At Hunt Consolidated, Inc. in Dallas, TX, I engineered data-intensive internal web pages for over 100 energy traders using React.js and JavaScript. I developed reusable CoreUI components with a Redux store and REST APIs, ensuring consistent data state across the application. By leveraging AgGrid, I was able to cut data load times by 50%, which enabled faster real-time analysis in complex data grids. I also established a robust testing framework using Jest and Cypress, increasing critical feature test coverage to 95%. This work directly contributed to a more efficient and reliable platform for business operations.",
+      type: "work",
+      icon: "👨🏻‍💻",
+    },
+    {
+      date: "Aug 2025",
+      title: "Software Engineer Intern",
+      "description": "Spearheaded a legacy portal migration, boosting API performance and data retrieval efficiency.",
+      "longDescription": "At Hunt Energy Network in Dallas, TX, I spearheaded the migration of the Legacy Trader Portal to ERCOT's Real-time Co-optimization (RTC+B) platform. I boosted API response times by 40% by optimizing Node.js/TypeScript REST APIs on AWS Lambda. I also improved real-time data retrieval efficiency for traders by 30% by engineering complex PostgreSQL queries. Furthermore, I built a monitoring dashboard with AWS CloudWatch and Grafana, cutting error detection time by 75% and ensuring system reliability. My optimizations directly enabled traders to make faster, more informed decisions with up-to-the-minute data. I collaborated closely with senior engineers and product managers throughout the software development lifecycle, from ideation to deployment.",
+      type: "work",
+      icon: "👨🏻‍💻",
     },
     // ... rest of the timeline items with similar detailed longDescription
   ];
