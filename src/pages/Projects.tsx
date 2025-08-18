@@ -21,9 +21,30 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: "Enpassant",
+      description:
+        "Enpassant is an AI-powered chess coach designed to elevate a player's game with an interactive board and live evaluation bar. Its core is a unique hybrid analysis system, using local Stockfish for instant feedback while leveraging a cloud engine and Google's Gemini API for deep, human-like explanations. The entire experience can be controlled hands-free with voice commands, making it an innovative and accessible tool for chess enthusiasts.",
+      image: "/images/Enpassant.png",
+      technologies: [
+        "React",
+        "Node.js",
+        "Google Cloud",
+        "Gemini API",
+        "Stockfish",
+        "Vite",
+        "JavaScript",
+        "Web Speech API",
+        "REST API",
+      ],
+      liveUrl: "https://enpassant.wiki/",
+      githubUrl: "https://github.com/V-prajit/Enpassant",
+      featured: true,
+    },
+    {
+      id: 2,
       title: "Vikash Estate",
       description:
-        "Vikash Estate is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. This site is dedicated to providing exceptional service and making the buying and selling process as smooth as possible. Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.",
+        "Vikash Estate is a leading real estate agency helping clients buy, sell, and rent properties in the most desirable neighborhoods. We are dedicated to providing exceptional service and making the buying and selling process as smooth as possible. Our mission is to help clients achieve their real estate goals with expert advice, personalized service, and deep local market knowledge. Whether you're looking to buy, sell, or rent a property, we are here to help you every step of the way.",
       image: "/images/VikashEstate.png",
       technologies: [
         "React",
@@ -37,12 +58,12 @@ const Projects = () => {
         "Tailwind CSS",
         "Redux",
       ],
-      liveUrl: "https://vikash-estate.onrender.com/",
+      liveUrl: "https://vikash-estate.onrender.com/search",
       githubUrl: "https://github.com/vikashftw/mern-estate",
       featured: true,
     },
     {
-      id: 2,
+      id: 3,
       title: "ToDesktopX",
       description:
         "This project is an advanced replica of the popular Web2Desktop app, ToDesktop, designed to highlight my expertise in creating fully responsive applications across all devices using Tailwind CSS. I developed custom JavaScript functions, including animations that make company logos slide based on scroll direction, to enhance interactivity and user experience. By working exclusively with plain HTML, CSS, and JavaScript, without relying on additional frameworks, I deepened my understanding of core web technologies. This project not only challenged my technical abilities but also significantly advanced my skills in responsive design, CSS, and JavaScript.",
@@ -51,14 +72,34 @@ const Projects = () => {
         "Javascript",
         "Tailwind CSS",
         "HTML",
-        "Font Awesome",
+        "Font Awesome"
       ],
       liveUrl: "https://todesktopp.vercel.app/",
       githubUrl: "https://github.com/vikashftw/ToDesktop",
       featured: true,
     },
     {
-      id: 3,
+      id: 4,
+      title: "HealthDex",
+      description:
+        "HealthDex is a robust Personal Health Management System (PHMS) for tracking vital signs, medications, diet logs, and appointments. Its proactive alert system sends in-app and email notifications for abnormal readings, ensuring timely attention. User data is secured with Firebase Authentication and biometric login support. To maximize accessibility, the app integrates LibreTranslate for multi-language support, making it a personal and secure health companion.",
+      image: "/images/HealthDex.jpg",
+      technologies: [
+        "Jetpack Compose",
+        "Kotlin",
+        "Ktor",
+        "Firebase",
+        "LibreTranslate",
+        "Docker",
+        "Gmail API",
+        "Kotlin Coroutines",
+        "Android Studio",
+      ],
+      githubUrl: "https://github.com/V-prajit/HealthDex",
+      featured: true,
+    },
+    {
+      id: 5,
       title: "Rapid Relief",
       description:
         "Rapid Relief is a mobile app designed to provide emergency services and real-time disaster tracking for users affected by natural disasters, such as hurricanes. The app allows users to locate nearby resources and activate an SOS feature that connects them with medical services, acting as a potential replacement for 911 in disaster scenarios. Integrated NASA and GDACS APIs provide live updates on natural disasters globally, helping users stay informed in real-time.",
@@ -79,31 +120,10 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 4,
-      title: "Balaji Emporium",
-      description:
-        "Balaji Emporium is a comprehensive e-commerce platform that brings a traditional retail store into the digital age. Customers can browse through an extensive catalog of products, add items to their cart, and complete secure purchases online. The platform features a streamlined checkout process, real-time inventory tracking, and personalized user accounts for order history. Store administrators can manage products, track orders, handle inventory, and process deliveries through an intuitive dashboard. The site includes smart search functionality, product categorization, and dynamic pricing with support for seasonal discounts and promotional offers.",
-      image: "/images/BalajiEmporium.png",
-      technologies: [
-        "Javascript",
-        "React",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "Docker",
-        "Stripe",
-        "OAuth 2.0",
-        "JWT",
-        "Tailwind CSS",
-      ],
-      githubUrl: "https://github.com/vikashftw/BalajiEmporium",
-      featured: true,
-    },
-    {
-      id: 5,
+      id: 6,
       title: "AutoGuardian",
-      description: 
-        "AutoGuardian is a comprehensive vehicle care companion app that helps car owners maintain their vehicles with ease. The app features smart maintenance scheduling, detailed service history tracking, and an extensive library of car care tutorials. Users can search for nearby certified mechanics and receive personalized vehicle care recommendations through an AI-powered virtual assistant. The app includes customizable service reminders, digital documentation storage, and a user-friendly interface for tracking multiple vehicles.",
+      description:
+        "AutoGuardian is a comprehensive app helping car owners easily maintain their vehicles. It features smart maintenance scheduling, detailed service history tracking, and a library of car care tutorials. Users can find nearby certified mechanics and receive personalized vehicle care recommendations through an AI-powered virtual assistant. The app also includes customizable service reminders, digital documentation storage, and a user-friendly interface for tracking multiple vehicles.",
       image: "/images/AutoGuardian.png",
       technologies: [
         "React Native",
@@ -115,12 +135,11 @@ const Projects = () => {
         "Babel",
         "JavaScript",
         "REST API",
-        "OAuth 2.0"
+        "OAuth 2.0",
       ],
       githubUrl: "https://github.com/vikashftw/AutoGuardian",
-      featured: true
+      featured: true,
     },
-    // ... rest of the projects
   ];
 
   useEffect(() => {
