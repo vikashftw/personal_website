@@ -15,7 +15,7 @@ const NavigationDots = () => {
   const navigate = useNavigate();
   const location = useLocation();
   
-  const resumeUrl = "https://drive.google.com/file/d/1l01fy1ygioXToD8d5HBe9nEwViooOUkV/view?usp=sharing";
+  const resumeUrl = "https://drive.google.com/file/d/1Hk3rIG7pnsAjj8PaixaYLHGujZOV7Q76/view?usp=sharing";
 
   const dots: Dot[] = [
     { path: '/about', label: 'About', offset: { x: 35, y: 60 } },
