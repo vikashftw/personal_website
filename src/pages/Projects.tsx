@@ -87,6 +87,28 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: "Viable",
+      description:
+        "Viable is an AI-powered product sandbox built for PMs to evaluate whether an idea is worth building before investing weeks in research and execution. It combines agentic market analysis, engineering planning, cost estimation, and GitHub PR generation into a single workflow that takes teams from prompt to implementation. The project was built at HackUTD 2025. It was designed to make early-stage product strategy feel faster, more rigorous, and easier to operationalize.",
+      image: "/images/Viable.png",
+      technologies: [
+        "FastAPI",
+        "Next.js",
+        "React",
+        "Python",
+        "TypeScript",
+        "Pydantic",
+        "NVIDIA Nemotron",
+        "Serper API",
+        "GitHub REST API",
+        "ripgrep",
+      ],
+      devpostUrl: "https://devpost.com/software/viable-shwc07",
+      githubUrl: "https://github.com/vikashftw/Viably",
+      featured: true,
+    },
+    {
+      id: 5,
       title: "Vikash Estate",
       description:
         "Vikash Estate is a leading real estate agency helping clients buy, sell, and rent properties in the most desirable neighborhoods. We are dedicated to providing exceptional service and making the buying and selling process as smooth as possible. Our mission is to help clients achieve their real estate goals with expert advice, personalized service, and deep local market knowledge. Whether you're looking to buy, sell, or rent a property, we are here to help you every step of the way.",
@@ -108,7 +130,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 5,
+      id: 6,
       title: "HealthDex",
       description:
         "HealthDex is a robust Personal Health Management System (PHMS) for tracking vital signs, medications, diet logs, and appointments. Its proactive alert system sends in-app and email notifications for abnormal readings, ensuring timely attention. User data is secured with Firebase Authentication and biometric login support. To maximize accessibility, the app integrates LibreTranslate for multi-language support, making it a personal and secure health companion.",
@@ -128,7 +150,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 6,
+      id: 7,
       title: "Rapid Relief",
       description:
         "Rapid Relief is a mobile app designed to provide emergency services and real-time disaster tracking for users affected by natural disasters, such as hurricanes. The app allows users to locate nearby resources and activate an SOS feature that connects them with medical services, acting as a potential replacement for 911 in disaster scenarios. Integrated NASA and GDACS APIs provide live updates on natural disasters globally, helping users stay informed in real-time.",
@@ -150,7 +172,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 7,
+      id: 8,
       title: "ToDesktopX",
       description:
         "This project is an advanced replica of the popular Web2Desktop app, ToDesktop, designed to highlight my expertise in creating fully responsive applications across all devices using Tailwind CSS. I developed custom JavaScript functions, including animations that make company logos slide based on scroll direction, to enhance interactivity and user experience. By working exclusively with plain HTML, CSS, and JavaScript, without relying on additional frameworks, I deepened my understanding of core web technologies. This project not only challenged my technical abilities but also significantly advanced my skills in responsive design, CSS, and JavaScript.",
@@ -166,7 +188,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 8,
+      id: 9,
       title: "AutoGuardian",
       description:
         "AutoGuardian is a comprehensive app helping car owners easily maintain their vehicles. It features smart maintenance scheduling, detailed service history tracking, and a library of car care tutorials. Users can find nearby certified mechanics and receive personalized vehicle care recommendations through an AI-powered virtual assistant. The app also includes customizable service reminders, digital documentation storage, and a user-friendly interface for tracking multiple vehicles.",
