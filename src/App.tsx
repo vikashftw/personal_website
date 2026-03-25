@@ -3,6 +3,7 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import CollapsibleSidebar from './components/CollapsibleSidebar';
 import ThemeToggle from './components/ThemeToggle';
 import AnimatedEyes from './components/AnimatedEyes';
+import ResumeDragHandle from './components/ResumeDragHandle';
 import SocialLinks from './components/SocialLinks';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -60,6 +61,7 @@ const App = (): JSX.Element => {
         <ThemeToggle />
         <AnimatedEyes />
         <SocialLinks />
+        <ResumeDragHandle />
         <main className="px-8 md:px-12">
           <section
             id="home"
