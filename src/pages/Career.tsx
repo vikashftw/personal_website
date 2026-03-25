@@ -69,7 +69,7 @@ const Career = () => {
     {
       date: "August 2025",
       title: "Software Engineer Intern",
-      "description": "Spearheaded a legacy portal migration, boosting API performance and data retrieval efficiency.",
+      "description": "Spearheaded a legacy portal migration, boosting API performance and data retrieval.",
       "longDescription": "At Hunt Energy Network in Dallas, TX, I spearheaded the migration of the Legacy Trader Portal to ERCOT's Real-time Co-optimization (RTC+B) platform. I boosted API response times by 40% by optimizing Node.js/TypeScript REST APIs on AWS Lambda. I also improved real-time data retrieval efficiency for traders by 30% by engineering complex PostgreSQL queries. Furthermore, I built a monitoring dashboard with AWS CloudWatch and Grafana, cutting error detection time by 75% and ensuring system reliability. My optimizations directly enabled traders to make faster, more informed decisions with up-to-the-minute data. I collaborated closely with senior engineers and product managers throughout the software development lifecycle, from ideation to deployment.",
       type: "work",
       icon: "👨🏻‍💻",
