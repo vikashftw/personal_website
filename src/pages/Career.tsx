@@ -42,18 +42,6 @@ const Career = () => {
       icon: "🎓",
     },
     {
-      date: "June 2023",
-      title: "Software Developer Intern",
-      description:
-        "Worked as Software Developer Intern at my high school, managing the school's online presence.",
-      longDescription: `Developed strong expertise in Python, Django, MySQL, and JavaScript, with a solid foundation taught by my high school faculty. 
-        As Software Developer Intern, I utilized these skills to elevate the school’s online presence, ensuring the website remained visually appealing, error-free, and fully functional. 
-        Managed a dynamic, regularly updated database that reflected real-time information, such as school events, announcements, and other essential data, providing a seamless, engaging, and professional digital experience that aligned with the school’s values and commitment to quality.
-        `,
-      type: "work",
-      icon: "👨🏻‍💻",
-    },
-    {
       date: "August 2023",
       title: "Started BS in CS at UTA",
       description:
@@ -61,16 +49,6 @@ const Career = () => {
       longDescription: `Embarked on my academic journey in Arlington, Texas on August 5th, 2023. Quickly adapted to the new environment despite the challenging Texas summer heat. Actively participated in the university orientation on August 8th, forming valuable connections with fellow students. Experienced the vibrant campus life with over 30,000 students during the first day of classes on August 21st. Made a conscious decision to maximize my university experience by planning to engage in various student organizations and campus activities. This transition marked my first step into higher education and public university culture.`,
       type: "education",
       icon: "✈️",
-    },
-    {
-      date: "January 2024",
-      title: "Orientation Leader",
-      description:
-        "Chosen to serve as an Orientation Leader at UTA, guiding incoming students in their university journey.",
-      longDescription: `Secured a prestigious role as an Orientation Leader at the University of Texas at Arlington, progressing from attending orientations myself to leading them. Underwent an intensive training program from January to May 2024 to develop strong interpersonal and communication skills. Promoted university resources and opportunities, provided guidance and support to new students and their families, and organized group activities to foster engagement. This role highlights my leadership abilities and deep knowledge of university culture, allowing me to positively impact new students’ transitions to university life during the Summer 2024 orientation sessions.
-`,
-      type: "achievement",
-      icon: "✨",
     },
     {
       "date": "January 2024",
@@ -89,10 +67,18 @@ const Career = () => {
       icon: "👨🏻‍💻",
     },
     {
-      date: "Aug 2025",
+      date: "August 2025",
       title: "Software Engineer Intern",
       "description": "Spearheaded a legacy portal migration, boosting API performance and data retrieval efficiency.",
       "longDescription": "At Hunt Energy Network in Dallas, TX, I spearheaded the migration of the Legacy Trader Portal to ERCOT's Real-time Co-optimization (RTC+B) platform. I boosted API response times by 40% by optimizing Node.js/TypeScript REST APIs on AWS Lambda. I also improved real-time data retrieval efficiency for traders by 30% by engineering complex PostgreSQL queries. Furthermore, I built a monitoring dashboard with AWS CloudWatch and Grafana, cutting error detection time by 75% and ensuring system reliability. My optimizations directly enabled traders to make faster, more informed decisions with up-to-the-minute data. I collaborated closely with senior engineers and product managers throughout the software development lifecycle, from ideation to deployment.",
+      type: "work",
+      icon: "👨🏻‍💻",
+    },
+    {
+      date: "May 2026",
+      title: "Software Engineer Intern",
+      "description": "Incoming Software Engineer Intern on Salesforce's Edge Infrastructure team in San Francisco, CA.",
+      "longDescription": "Incoming Software Engineer Intern at Salesforce for a 12-week Summer 2026 internship in San Francisco, CA. Selected to work on the Edge Infrastructure team, contributing to systems that process over 1PB of daily traffic for more than 5 million organizations. This role will focus on building and improving large-scale infrastructure with an emphasis on reliability, performance, and distributed systems at global scale, supporting services designed for 99.99% availability.",
       type: "work",
       icon: "👨🏻‍💻",
     },
