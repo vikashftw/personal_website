@@ -22,7 +22,7 @@ const About = () => {
     <motion.div 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="max-w-7xl mx-auto py-8"
+      className="w-full max-w-7xl mx-auto"
     >
       <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
       

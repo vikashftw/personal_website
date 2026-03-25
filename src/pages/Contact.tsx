@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="max-w-2xl mx-auto py-8">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="w-full max-w-2xl mx-auto py-8">
       <AnimatePresence>
         {notification && (
           <ToastNotification

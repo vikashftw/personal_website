@@ -235,7 +235,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="h-full w-full py-20 px-4">
+    <div className="w-full py-8 px-4">
       <motion.h1
         className="text-5xl font-bold text-center mb-20 bg-clip-text text-transparent 
                     bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 

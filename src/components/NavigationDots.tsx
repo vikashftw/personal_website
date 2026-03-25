@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
-import { useNavigate, useLocation } from 'react-router-dom';
 
 interface Dot {
-  path: string;
+  sectionId: 'about' | 'career' | 'projects' | 'contact';
   label: string;
   offset: {
     x: number;
@@ -11,18 +10,20 @@ interface Dot {
   isResume?: boolean;
 }
 
-const NavigationDots = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
-  
+interface NavigationDotsProps {
+  activeSection: string;
+  onNavigate: (sectionId: 'home' | 'about' | 'career' | 'projects' | 'contact') => void;
+}
+
+const NavigationDots = ({ activeSection, onNavigate }: NavigationDotsProps) => {
   const resumeUrl = "https://drive.google.com/file/d/1Hk3rIG7pnsAjj8PaixaYLHGujZOV7Q76/view?usp=sharing";
 
   const dots: Dot[] = [
-    { path: '/about', label: 'About', offset: { x: 35, y: 60 } },
-    { path: '/career', label: 'Timeline', offset: { x: 15, y: 200 } },
-    { path: '/projects', label: 'Projects', offset: { x: 35, y: 340 } },
-    { path: '/contact', label: 'Contact', offset: { x: 15, y: 480 } },
-    { path: resumeUrl, label: 'Resume', isResume: true, offset: { x: 35, y: 620 } }
+    { sectionId: 'about', label: 'About', offset: { x: 35, y: 120 } },
+    { sectionId: 'career', label: 'Timeline', offset: { x: 15, y: 260 } },
+    { sectionId: 'projects', label: 'Projects', offset: { x: 35, y: 400 } },
+    { sectionId: 'contact', label: 'Contact', offset: { x: 15, y: 540 } },
+    { sectionId: 'contact', label: 'Resume', isResume: true, offset: { x: 35, y: 680 } }
   ];
 
   const glowVariants = {
@@ -52,11 +53,11 @@ const NavigationDots = () => {
     }
   };
 
-  const handleClick = (path: string, isResume = false) => {
+  const handleClick = (sectionId: 'home' | 'about' | 'career' | 'projects' | 'contact', isResume = false) => {
     if (isResume) {
-      window.open(path, '_blank');
+      window.open(resumeUrl, '_blank');
     } else {
-      navigate(path);
+      onNavigate(sectionId);
     }
   };
 
@@ -65,7 +66,7 @@ const NavigationDots = () => {
       <div className="relative h-full w-24 pointer-events-auto">
         {dots.map((dot, index) => (
           <motion.div
-            key={dot.path}
+            key={`${dot.label}-${index}`}
             className="absolute right-0"
             initial={{ opacity: 0, x: 50 }}
             animate={{ 
@@ -81,7 +82,7 @@ const NavigationDots = () => {
           >
             <motion.div
               className="relative group"
-              onClick={() => handleClick(dot.path, dot.isResume)}
+              onClick={() => handleClick(dot.sectionId, dot.isResume)}
               style={{ cursor: 'pointer' }}
             >
               {/* Largest outer glow */}
@@ -120,7 +121,7 @@ const NavigationDots = () => {
               {/* Main dot */}
               <motion.div
                 className={`w-6 h-6 rounded-full relative z-10 
-                  ${location.pathname === dot.path 
+                  ${activeSection === dot.sectionId && !dot.isResume
                     ? 'dark:bg-indigo-300 dark:shadow-indigo-300/50 bg-indigo-500 shadow-indigo-500/50' 
                     : 'dark:bg-indigo-300/80 dark:shadow-indigo-300/30 bg-indigo-500/80 shadow-indigo-500/30'
                   } shadow-lg`}

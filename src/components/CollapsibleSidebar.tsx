@@ -1,9 +1,15 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
 import { Menu, X, Home, User, History, Mail, FileText, Briefcase } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const CollapsibleSidebar = () => {
+interface CollapsibleSidebarProps {
+  activeSection: string;
+  onNavigate: (sectionId: 'home' | 'about' | 'career' | 'projects' | 'contact') => void;
+}
+
+type SectionId = 'home' | 'about' | 'career' | 'projects' | 'contact';
+
+const CollapsibleSidebar = ({ activeSection, onNavigate }: CollapsibleSidebarProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const resumeUrl = "https://drive.google.com/file/d/1Hk3rIG7pnsAjj8PaixaYLHGujZOV7Q76/view?usp=sharing";
 
@@ -12,12 +18,12 @@ const CollapsibleSidebar = () => {
     closed: { x: "-100%" }
   };
 
-  const menuItems = [
-    { icon: Home, label: "Home", path: "/" },
-    { icon: User, label: "About", path: "/about" },
-    { icon: History, label: "Timeline", path: "/career" },
-    { icon: Briefcase, label: "Projects", path: "/projects" },
-    { icon: Mail, label: "Contact", path: "/contact" },
+  const menuItems: { icon: typeof Home; label: string; sectionId: SectionId }[] = [
+    { icon: Home, label: "Home", sectionId: "home" },
+    { icon: User, label: "About", sectionId: "about" },
+    { icon: History, label: "Timeline", sectionId: "career" },
+    { icon: Briefcase, label: "Projects", sectionId: "projects" },
+    { icon: Mail, label: "Contact", sectionId: "contact" },
   ];
 
   return (
@@ -60,22 +66,23 @@ const CollapsibleSidebar = () => {
                 </button>
 
                 <div className="mt-12 space-y-4">
-                  {menuItems.map(({ icon: Icon, label, path }) => (
-                    <NavLink
-                      key={path}
-                      to={path}
-                      onClick={() => setIsOpen(false)}
-                      className={({ isActive }) =>
-                        `flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors
-                        ${isActive 
-                          ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400' 
+                  {menuItems.map(({ icon: Icon, label, sectionId }) => (
+                    <button
+                      key={sectionId}
+                      type="button"
+                      onClick={() => {
+                        onNavigate(sectionId);
+                        setIsOpen(false);
+                      }}
+                      className={`flex w-full items-center space-x-3 px-4 py-3 rounded-lg transition-colors text-left
+                        ${activeSection === sectionId
+                          ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400'
                           : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
-                        }`
-                      }
+                        }`}
                     >
                       <Icon size={22} />
                       <span className="font-medium">{label}</span>
-                    </NavLink>
+                    </button>
                   ))}
 
                   <a

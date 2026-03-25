@@ -1,20 +1,27 @@
 import { motion } from 'framer-motion';
 import NavigationDots from '../components/NavigationDots';
 
-const Home = () => {
+interface HomeProps {
+  activeSection: string;
+  onNavigate: (sectionId: 'home' | 'about' | 'career' | 'projects' | 'contact') => void;
+}
+
+const Home = ({ activeSection, onNavigate }: HomeProps) => {
   return (
-    <div className="fixed inset-0 overflow-hidden">
-      <NavigationDots />
+    <div className="relative w-full overflow-hidden">
+      {activeSection === 'home' && (
+        <NavigationDots activeSection={activeSection} onNavigate={onNavigate} />
+      )}
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="flex flex-col items-center justify-center h-full"
+        className="flex w-full flex-col items-center justify-center py-16"
       >
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="relative p-12 rounded-2xl bg-gradient-to-br from-blue-500/10 to-purple-500/10 
+          className="relative mx-auto max-w-4xl p-8 md:p-12 rounded-2xl bg-gradient-to-br from-blue-500/10 to-purple-500/10 
             backdrop-blur-sm border border-white/10 shadow-xl"
         >
           <motion.div
