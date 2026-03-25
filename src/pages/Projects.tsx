@@ -9,6 +9,7 @@ interface Project {
   image: string;
   technologies: string[];
   liveUrl?: string;
+  devpostUrl?: string;
   githubUrl?: string;
   featured: boolean;
 }
@@ -21,11 +22,33 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: "Guido",
+      description:
+        "Guido is a multi-agent simulation platform for 2026 Formula 1 strategy discovery and prediction, built to help teams model race outcomes under the sport's new regulations. It runs 1,000+ realistic race simulations in seconds, analyzes decision patterns with AI agents, and turns large time-series outputs into clear strategic recommendations. The project won 1st Place for NorthMark Compute & Cloud at HackTX 2025.",
+      image: "/images/Guido.png",
+      technologies: [
+        "HackTX Winner",
+        "Python",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Tailwind CSS",
+        "WebSockets",
+        "Gemini",
+        "JavaScript",
+      ],
+      devpostUrl: "https://devpost.com/software/https-www-youtube-com-watch-v-dqw4w9wgxcq",
+      githubUrl: "https://github.com/V-prajit/Guido",
+      featured: true,
+    },
+    {
+      id: 2,
       title: "Enpassant",
       description:
         "Enpassant is an AI-powered chess coach designed to elevate a player's game with an interactive board and live evaluation bar. Its core is a unique hybrid analysis system, using local Stockfish for instant feedback while leveraging a cloud engine and Google's Gemini API for deep, human-like explanations. The entire experience can be controlled hands-free with voice commands, making it an innovative and accessible tool for chess enthusiasts.",
       image: "/images/Enpassant.png",
       technologies: [
+        "Google Hackathon Winner",
         "React",
         "Node.js",
         "Google Cloud",
@@ -37,11 +60,33 @@ const Projects = () => {
         "REST API",
       ],
       liveUrl: "https://enpassant.wiki/",
+      devpostUrl: "https://devpost.com/software/enpassant",
       githubUrl: "https://github.com/V-prajit/Enpassant",
       featured: true,
     },
     {
-      id: 2,
+      id: 3,
+      title: "CanDraw",
+      description:
+        "CanDraw is an AI copilot for whiteboarding and diagramming that transforms plain-language ideas into structured visuals in real time. It helps engineers quickly create diagrams such as database schemas and system flows, then export corresponding SQL for practical use. The project won 1st Place at HackGT 2025 in the Ergo track for best use of the Mastra agent framework for productivity. It reduces the friction of traditional diagramming tools and makes planning feel faster and more natural.",
+      image: "/images/CanDraw.png",
+      technologies: [
+        "HackGT Winner",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Mastra",
+        "OpenAI API",
+        "SQL",
+        "JavaScript",
+      ],
+      devpostUrl: "https://devpost.com/software/s-hrncfi",
+      githubUrl: "https://github.com/V-prajit/CanDraw",
+      featured: true,
+    },
+    {
+      id: 4,
       title: "Vikash Estate",
       description:
         "Vikash Estate is a leading real estate agency helping clients buy, sell, and rent properties in the most desirable neighborhoods. We are dedicated to providing exceptional service and making the buying and selling process as smooth as possible. Our mission is to help clients achieve their real estate goals with expert advice, personalized service, and deep local market knowledge. Whether you're looking to buy, sell, or rent a property, we are here to help you every step of the way.",
@@ -63,23 +108,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 3,
-      title: "ToDesktopX",
-      description:
-        "This project is an advanced replica of the popular Web2Desktop app, ToDesktop, designed to highlight my expertise in creating fully responsive applications across all devices using Tailwind CSS. I developed custom JavaScript functions, including animations that make company logos slide based on scroll direction, to enhance interactivity and user experience. By working exclusively with plain HTML, CSS, and JavaScript, without relying on additional frameworks, I deepened my understanding of core web technologies. This project not only challenged my technical abilities but also significantly advanced my skills in responsive design, CSS, and JavaScript.",
-      image: "/images/ToDesktop.png",
-      technologies: [
-        "Javascript",
-        "Tailwind CSS",
-        "HTML",
-        "Font Awesome"
-      ],
-      liveUrl: "https://todesktopp.vercel.app/",
-      githubUrl: "https://github.com/vikashftw/ToDesktop",
-      featured: true,
-    },
-    {
-      id: 4,
+      id: 5,
       title: "HealthDex",
       description:
         "HealthDex is a robust Personal Health Management System (PHMS) for tracking vital signs, medications, diet logs, and appointments. Its proactive alert system sends in-app and email notifications for abnormal readings, ensuring timely attention. User data is secured with Firebase Authentication and biometric login support. To maximize accessibility, the app integrates LibreTranslate for multi-language support, making it a personal and secure health companion.",
@@ -99,13 +128,13 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 5,
+      id: 6,
       title: "Rapid Relief",
       description:
         "Rapid Relief is a mobile app designed to provide emergency services and real-time disaster tracking for users affected by natural disasters, such as hurricanes. The app allows users to locate nearby resources and activate an SOS feature that connects them with medical services, acting as a potential replacement for 911 in disaster scenarios. Integrated NASA and GDACS APIs provide live updates on natural disasters globally, helping users stay informed in real-time.",
       image: "/images/RapidRelief.png",
       technologies: [
-        "Typescript",
+        "TypeScript",
         "Python",
         "React Native",
         "Node.js",
@@ -116,11 +145,28 @@ const Projects = () => {
         "GDACS API",
         "Expo Go",
       ],
+      devpostUrl: "https://devpost.com/software/rapid-response-gkqtp8",
       githubUrl: "https://github.com/vikashftw/RapidRelief",
       featured: true,
     },
     {
-      id: 6,
+      id: 7,
+      title: "ToDesktopX",
+      description:
+        "This project is an advanced replica of the popular Web2Desktop app, ToDesktop, designed to highlight my expertise in creating fully responsive applications across all devices using Tailwind CSS. I developed custom JavaScript functions, including animations that make company logos slide based on scroll direction, to enhance interactivity and user experience. By working exclusively with plain HTML, CSS, and JavaScript, without relying on additional frameworks, I deepened my understanding of core web technologies. This project not only challenged my technical abilities but also significantly advanced my skills in responsive design, CSS, and JavaScript.",
+      image: "/images/ToDesktop.png",
+      technologies: [
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML",
+        "Font Awesome"
+      ],
+      liveUrl: "https://todesktopp.vercel.app/",
+      githubUrl: "https://github.com/vikashftw/ToDesktop",
+      featured: true,
+    },
+    {
+      id: 8,
       title: "AutoGuardian",
       description:
         "AutoGuardian is a comprehensive app helping car owners easily maintain their vehicles. It features smart maintenance scheduling, detailed service history tracking, and a library of car care tutorials. Users can find nearby certified mechanics and receive personalized vehicle care recommendations through an AI-powered virtual assistant. The app also includes customizable service reminders, digital documentation storage, and a user-friendly interface for tracking multiple vehicles.",
@@ -137,6 +183,7 @@ const Projects = () => {
         "REST API",
         "OAuth 2.0",
       ],
+      devpostUrl: "https://devpost.com/software/autoguardian-wbcgo6",
       githubUrl: "https://github.com/vikashftw/AutoGuardian",
       featured: true,
     },
@@ -301,9 +348,11 @@ const Projects = () => {
                   {projects[activeIndex].technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="px-4 py-2 rounded-full text-base
-                        bg-blue-100 dark:bg-blue-900/30 
-                        text-blue-800 dark:text-blue-200"
+                      className={`px-4 py-2 rounded-full text-base ${
+                        tech.includes("Winner")
+                          ? "bg-amber-100 text-amber-900 dark:bg-amber-400/20 dark:text-amber-200"
+                          : "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-200"
+                      }`}
                     >
                       {tech}
                     </span>
@@ -344,6 +393,43 @@ const Projects = () => {
                         group-hover:tracking-wide group-active:tracking-normal"
                       >
                         Visit Site
+                      </span>
+                    </a>
+                  )}
+                  {projects[activeIndex].devpostUrl && (
+                    <a
+                      href={projects[activeIndex].devpostUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group relative inline-flex items-center space-x-3 px-8 py-4 rounded-lg
+                        overflow-hidden transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0
+                        hover:shadow-lg dark:hover:shadow-cyan-900/30 active:shadow-md"
+                    >
+                      <div
+                        className="absolute inset-0 bg-gradient-to-r from-[#003E54] to-[#0B5F7A]
+                        transition-all duration-300 group-hover:scale-[1.05] group-active:scale-[0.98]
+                        group-hover:opacity-95"
+                      />
+                      <div
+                        className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300
+                        bg-[radial-gradient(circle_at_50%_120%,rgba(255,255,255,0.16),transparent_70%)]"
+                      />
+                      <div
+                        className="absolute inset-y-0 left-0 w-16 -translate-x-full group-hover:translate-x-[220px]
+                        transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+                      />
+                      <img
+                        src="https://cdn.simpleicons.org/devpost/ffffff"
+                        alt=""
+                        aria-hidden="true"
+                        className="relative z-10 h-6 w-6 transition-transform duration-300
+                        group-hover:scale-110 group-active:scale-95"
+                      />
+                      <span
+                        className="relative z-10 text-white text-lg font-medium transition-all duration-300
+                        group-hover:tracking-wide group-active:tracking-normal"
+                      >
+                        Visit Devpost
                       </span>
                     </a>
                   )}
