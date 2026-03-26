@@ -56,13 +56,13 @@ const Home = ({ activeSection, onNavigate }: HomeProps) => {
             transition={{ delay: 0.4 }}
           >
             <p className="leading-relaxed">
-              Passionate software engineer crafting elegant solutions to complex problems.
+              Honors B.S. in Computer Science at UT Arlington (Expected: Dec 2026)
             </p>
             <p className="leading-relaxed">
-              Dedicated to creating seamless user experiences through innovative technology.
+              GPA: 4.0/4.0. 3x Hackathon Winner (Georgia Tech, UT Austin, Texas A&M)
             </p>
             <p className="leading-relaxed">
-              Constantly exploring new technologies and pushing the boundaries of what's possible.
+              Backed by a year of experience as a SWE Intern at Hunt; incoming at Salesforce.
             </p>
           </motion.div>
         </motion.div>
