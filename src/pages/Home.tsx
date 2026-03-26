@@ -79,7 +79,7 @@ const Home = ({ activeSection, onNavigate }: HomeProps) => {
               GPA: 4.0/4.0. 3x Hackathon Winner (Georgia Tech, UT Austin, Texas A&M)
             </p>
             <p className="leading-relaxed">
-              Backed by a year of experience as a SWE Intern at Hunt; incoming at Salesforce.
+              Backed by a year of experience as a SWE Intern at Hunt; incoming at Salesforce
             </p>
           </motion.div>
         </motion.div>
