@@ -73,10 +73,10 @@ const Home = ({ activeSection, onNavigate }: HomeProps) => {
             transition={{ delay: 0.4 }}
           >
             <p className="leading-relaxed">
-              Honors B.S. in Computer Science at UT Arlington (Expected: Dec 2026)
+              Honors B.S. in Computer Science at UT Arlington (Expected: May 2027)
             </p>
             <p className="leading-relaxed">
-              GPA: 4.0/4.0. 3x Hackathon Winner (Georgia Tech, UT Austin, Texas A&M)
+              GPA: 4.0/4.0. 4x Hackathon Winner (UC Berkeley, GT, UT Austin, TAMU)
             </p>
             <p className="leading-relaxed">
               Backed by a year of experience as a SWE Intern at Hunt; incoming at Salesforce
