@@ -22,6 +22,28 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: "Canary",
+      description:
+        "Canary is a self-healing correctness agent that catches the silent bugs your tests and error monitoring both miss, then root-causes, fixes, and writes the regression test with no human in the loop. It pairs two oracles: Sentry for errors that throw and a Computer Use Agent in a cloud browser for bugs that are silently wrong. In the demo it caught a checkout leaking 50% of revenue and a 54% drop in average order value.",
+      image: "/images/Canary.png",
+      technologies: [
+        "AI Hackathon Winner @ UC Berkeley",
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Node.js",
+        "Claude",
+        "Sentry",
+        "Browserbase",
+        "Redis",
+        "Playwright",
+      ],
+      devpostUrl: "https://devpost.com/software/agi-14q6d3",
+      githubUrl: "https://github.com/vikashftw/Canary",
+      featured: true,
+    },
+    {
+      id: 2,
       title: "Guido",
       description:
         "Guido is a multi-agent simulation platform for 2026 Formula 1 strategy discovery and prediction, built to help teams model race outcomes under the sport's new regulations. It runs 1,000+ realistic race simulations in seconds, analyzes decision patterns with AI agents, and turns large time-series outputs into clear strategic recommendations. The project won 1st Place for NorthMark Compute & Cloud at HackTX 2025.",
@@ -42,7 +64,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 2,
+      id: 3,
       title: "Enpassant",
       description:
         "Enpassant is an AI-powered chess coach designed to elevate a player's game with an interactive board and live evaluation bar. Its core is a unique hybrid analysis system, using local Stockfish for instant feedback while leveraging a cloud engine and Google's Gemini API for deep, human-like explanations. The entire experience can be controlled hands-free with voice commands, making it an innovative and accessible tool for chess enthusiasts.",
@@ -65,7 +87,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 3,
+      id: 4,
       title: "CanDraw",
       description:
         "CanDraw is an AI copilot for whiteboarding and diagramming that transforms plain-language ideas into structured visuals in real time. It helps engineers quickly create diagrams such as database schemas and system flows, then export corresponding SQL for practical use. The project won 1st Place at HackGT 2025 in the Ergo track for best use of the Mastra agent framework for productivity. It reduces the friction of traditional diagramming tools and makes planning feel faster and more natural.",
@@ -86,7 +108,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 4,
+      id: 5,
       title: "Viable",
       description:
         "Viable is an AI-powered product sandbox built for PMs to evaluate whether an idea is worth building before investing weeks in research and execution. It combines agentic market analysis, engineering planning, cost estimation, and GitHub PR generation into a single workflow that takes teams from prompt to implementation. The project was built at HackUTD 2025. It was designed to make early-stage product strategy feel faster, more rigorous, and easier to operationalize.",
@@ -108,7 +130,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 5,
+      id: 6,
       title: "Vikash Estate",
       description:
         "Vikash Estate is a leading real estate agency helping clients buy, sell, and rent properties in the most desirable neighborhoods. We are dedicated to providing exceptional service and making the buying and selling process as smooth as possible. Our mission is to help clients achieve their real estate goals with expert advice, personalized service, and deep local market knowledge. Whether you're looking to buy, sell, or rent a property, we are here to help you every step of the way.",
@@ -130,7 +152,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 6,
+      id: 7,
       title: "HealthDex",
       description:
         "HealthDex is a robust Personal Health Management System (PHMS) for tracking vital signs, medications, diet logs, and appointments. Its proactive alert system sends in-app and email notifications for abnormal readings, ensuring timely attention. User data is secured with Firebase Authentication and biometric login support. To maximize accessibility, the app integrates LibreTranslate for multi-language support, making it a personal and secure health companion.",
@@ -150,7 +172,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 7,
+      id: 8,
       title: "Rapid Relief",
       description:
         "Rapid Relief is a mobile app designed to provide emergency services and real-time disaster tracking for users affected by natural disasters, such as hurricanes. The app allows users to locate nearby resources and activate an SOS feature that connects them with medical services, acting as a potential replacement for 911 in disaster scenarios. Integrated NASA and GDACS APIs provide live updates on natural disasters globally, helping users stay informed in real-time.",
@@ -172,7 +194,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 8,
+      id: 9,
       title: "ToDesktopX",
       description:
         "This project is an advanced replica of the popular Web2Desktop app, ToDesktop, designed to highlight my expertise in creating fully responsive applications across all devices using Tailwind CSS. I developed custom JavaScript functions, including animations that make company logos slide based on scroll direction, to enhance interactivity and user experience. By working exclusively with plain HTML, CSS, and JavaScript, without relying on additional frameworks, I deepened my understanding of core web technologies. This project not only challenged my technical abilities but also significantly advanced my skills in responsive design, CSS, and JavaScript.",
@@ -188,7 +210,7 @@ const Projects = () => {
       featured: true,
     },
     {
-      id: 9,
+      id: 10,
       title: "AutoGuardian",
       description:
         "AutoGuardian is a comprehensive app helping car owners easily maintain their vehicles. It features smart maintenance scheduling, detailed service history tracking, and a library of car care tutorials. Users can find nearby certified mechanics and receive personalized vehicle care recommendations through an AI-powered virtual assistant. The app also includes customizable service reminders, digital documentation storage, and a user-friendly interface for tracking multiple vehicles.",
