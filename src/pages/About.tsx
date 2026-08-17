@@ -14,8 +14,8 @@ const About = () => {
     { name: "Node.js/Express.js/SpringBoot", level: 97 },
     { name: "Data Structures & Algorithms", level: 95 },
     { name: "AI & Machine Learning", level: 93 },
-    { name: "Git Version Control", level: 93 },
-    { name: "AWS Services", level: 90 }
+    { name: "AWS/GCP Services", level: 93 },
+    { name: "Kubernetes", level: 90 }
   ];
 
   return (
